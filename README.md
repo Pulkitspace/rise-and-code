@@ -17,7 +17,7 @@
 ![Front Page](./extension/front1.png)
 
 ### Dark Mode
-<img src="./extension/front4.png" alt="Dark Mode" width="400">
+<img src="./extension/fornt4.png" alt="Dark Mode" width="400">
 
 ### Daily Streak
 <img src="./extension/front5.png" alt="Daily Streak" width="400">
