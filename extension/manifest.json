@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Motivational Shloka & Tech Questions",
+  "version": "1.0",
+  "description": "Get a motivational shloka and tech questions to start your day.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["questions.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

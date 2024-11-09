@@ -1,0 +1,856 @@
+{
+  "codingQuestions": [
+    {
+      "question": "Two Sum Problem: Given an array of integers, find two numbers that add up to a specific target.",
+      "link": "https://leetcode.com/problems/two-sum/"
+    },
+    {
+      "question": "Reverse Integer: Reverse digits of an integer.",
+      "link": "https://leetcode.com/problems/reverse-integer/"
+    },
+    {
+      "question": "Palindrome Number: Determine whether an integer is a palindrome.",
+      "link": "https://leetcode.com/problems/palindrome-number/"
+    },
+    {
+      "question": "Roman to Integer: Convert a Roman numeral to an integer.",
+      "link": "https://leetcode.com/problems/roman-to-integer/"
+    },
+    {
+      "question": "Longest Common Prefix: Write a function to find the longest common prefix string amongst an array of strings.",
+      "link": "https://leetcode.com/problems/longest-common-prefix/"
+    },
+    {
+      "question": "Valid Parentheses: Determine if a string containing just the characters '(', ')', '{', '}', '[', ']' is valid.",
+      "link": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "question": "Merge Two Sorted Lists: Merge two sorted linked lists and return it as a new sorted list.",
+      "link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+    },
+    {
+      "question": "Remove Duplicates from Sorted Array: Remove duplicates in-place from a sorted array.",
+      "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+    },
+    {
+      "question": "Max Subarray: Find the contiguous subarray with the maximum sum.",
+      "link": "https://leetcode.com/problems/maximum-subarray/"
+    },
+    {
+      "question": "Length of Last Word: Given a string s, return the length of the last word.",
+      "link": "https://leetcode.com/problems/length-of-last-word/"
+    },
+    {
+      "question": "Plus One: Increment a non-negative integer represented as an array of digits.",
+      "link": "https://leetcode.com/problems/plus-one/"
+    },
+    {
+      "question": "Add Binary: Given two binary strings, return their sum as a binary string.",
+      "link": "https://leetcode.com/problems/add-binary/"
+    },
+    {
+      "question": "Climbing Stairs: Calculate the number of distinct ways to climb a staircase with n steps.",
+      "link": "https://leetcode.com/problems/climbing-stairs/"
+    },
+    {
+      "question": "Remove Element: Remove all instances of a value in-place from a list.",
+      "link": "https://leetcode.com/problems/remove-element/"
+    },
+    {
+      "question": "Implement strStr(): Implement the strStr() function that finds the first occurrence of a substring.",
+      "link": "https://leetcode.com/problems/implement-strstr/"
+    },
+    {
+      "question": "Count and Say: Implement the count-and-say sequence.",
+      "link": "https://leetcode.com/problems/count-and-say/"
+    },
+    {
+      "question": "Max Depth of Binary Tree: Find the maximum depth of a binary tree.",
+      "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+    },
+    {
+      "question": "Binary Tree Inorder Traversal: Perform an inorder traversal of a binary tree.",
+      "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    },
+    {
+      "question": "Symmetric Tree: Check if a binary tree is symmetric.",
+      "link": "https://leetcode.com/problems/symmetric-tree/"
+    },
+    {
+      "question": "Minimum Depth of Binary Tree: Find the minimum depth of a binary tree.",
+      "link": "https://leetcode.com/problems/minimum-depth-of-binary-tree/"
+    },
+    {
+      "question": "Path Sum: Given a binary tree and a sum, check if the tree has a root-to-leaf path with the given sum.",
+      "link": "https://leetcode.com/problems/path-sum/"
+    },
+    {
+      "question": "Linked List Cycle: Determine if a linked list has a cycle.",
+      "link": "https://leetcode.com/problems/linked-list-cycle/"
+    },
+    {
+      "question": "Palindrome Linked List: Check if a linked list is a palindrome.",
+      "link": "https://leetcode.com/problems/palindrome-linked-list/"
+    },
+    {
+      "question": "Merge K Sorted Lists: Merge k sorted linked lists into one sorted list.",
+      "link": "https://leetcode.com/problems/merge-k-sorted-lists/"
+    },
+    {
+      "question": "Sort Colors: Sort an array with elements 0, 1, 2 (representing colors) in-place.",
+      "link": "https://leetcode.com/problems/sort-colors/"
+    },
+    {
+      "question": "First Missing Positive: Find the smallest missing positive integer from an unsorted array.",
+      "link": "https://leetcode.com/problems/first-missing-positive/"
+    },
+    {
+      "question": "Container with Most Water: Find two lines on an x-axis that, together with the axis, forms a container holding the most water.",
+      "link": "https://leetcode.com/problems/container-with-most-water/"
+    },
+    {
+      "question": "Longest Consecutive Sequence: Find the length of the longest consecutive elements sequence.",
+      "link": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
+    {
+      "question": "Word Ladder: Find the shortest transformation sequence from a start word to an end word.",
+      "link": "https://leetcode.com/problems/word-ladder/"
+    },
+    {
+      "question": "Trapping Rain Water: Calculate the amount of water that can be trapped after it rains.",
+      "link": "https://leetcode.com/problems/trapping-rain-water/"
+    },
+    {
+      "question": "Median of Two Sorted Arrays: Find the median of two sorted arrays.",
+      "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+    },
+    {
+      "question": "Longest Substring Without Repeating Characters: Find the length of the longest substring without repeating characters.",
+      "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
+    {
+      "question": "Zigzag Conversion: Convert a string to a zigzag pattern and return the result.",
+      "link": "https://leetcode.com/problems/zigzag-conversion/"
+    },
+    {
+      "question": "Container With Most Water: Find the maximum amount of water a container can store given an array of heights.",
+      "link": "https://leetcode.com/problems/container-with-most-water/"
+    },
+    {
+      "question": "3Sum: Find all unique triplets in an array that sum up to zero.",
+      "link": "https://leetcode.com/problems/3sum/"
+    },
+    {
+      "question": "Letter Combinations of a Phone Number: Return all possible letter combinations that the number could represent.",
+      "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+    },
+    {
+      "question": "Remove Nth Node from End of List: Remove the nth node from the end of a linked list.",
+      "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+    },
+    {
+      "question": "Valid Sudoku: Check if a 9x9 Sudoku board is valid.",
+      "link": "https://leetcode.com/problems/valid-sudoku/"
+    },
+    {
+      "question": "Sudoku Solver: Solve a given Sudoku puzzle.",
+      "link": "https://leetcode.com/problems/sudoku-solver/"
+    },
+    {
+      "question": "Search in Rotated Sorted Array: Find the index of a target value in a rotated sorted array.",
+      "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+    },
+    {
+      "question": "Combination Sum: Find all unique combinations in an array where the sum equals a target.",
+      "link": "https://leetcode.com/problems/combination-sum/"
+    },
+    {
+      "question": "Word Search: Check if a word exists in a grid of letters.",
+      "link": "https://leetcode.com/problems/word-search/"
+    },
+    {
+      "question": "Jump Game: Determine if you can reach the last index of an array.",
+      "link": "https://leetcode.com/problems/jump-game/"
+    },
+    {
+      "question": "Permutations: Return all possible permutations of a list of numbers.",
+      "link": "https://leetcode.com/problems/permutations/"
+    },
+    {
+      "question": "Unique Paths: Calculate the number of unique paths in a grid from top-left to bottom-right.",
+      "link": "https://leetcode.com/problems/unique-paths/"
+    },
+    {
+      "question": "Minimum Path Sum: Find the minimum sum path from top-left to bottom-right of a grid.",
+      "link": "https://leetcode.com/problems/minimum-path-sum/"
+    },
+    {
+      "question": "Edit Distance: Calculate the minimum number of operations required to convert one string to another.",
+      "link": "https://leetcode.com/problems/edit-distance/"
+    },
+    {
+      "question": "Scramble String: Determine if a string is a scramble of another string.",
+      "link": "https://leetcode.com/problems/scramble-string/"
+    },
+    {
+      "question": "Binary Tree Maximum Path Sum: Find the maximum path sum in a binary tree.",
+      "link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+    },
+    {
+      "question": "Best Time to Buy and Sell Stock: Find the maximum profit that can be achieved from buying and selling a stock.",
+      "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    },
+    {
+      "question": "Maximal Rectangle: Find the maximal rectangle containing only 1's in a binary matrix.",
+      "link": "https://leetcode.com/problems/maximal-rectangle/"
+    },
+    {
+      "question": "Longest Increasing Subsequence: Find the length of the longest increasing subsequence in an array.",
+      "link": "https://leetcode.com/problems/longest-increasing-subsequence/"
+    },
+    {
+      "question": "Word Break: Determine if a string can be segmented into a space-separated sequence of one or more dictionary words.",
+      "link": "https://leetcode.com/problems/word-break/"
+    },
+    {
+      "question": "Insert Interval: Insert a new interval into a list of non-overlapping intervals.",
+      "link": "https://leetcode.com/problems/insert-interval/"
+    },
+    {
+      "question": "Merge Intervals: Merge all overlapping intervals in a list.",
+      "link": "https://leetcode.com/problems/merge-intervals/"
+    },
+    {
+      "question": "Spiral Matrix: Return all elements of a matrix in spiral order.",
+      "link": "https://leetcode.com/problems/spiral-matrix/"
+    },
+    {
+      "question": "Kth Largest Element in an Array: Find the kth largest element in an unsorted array.",
+      "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+    },
+    {
+      "question": "Maximum Product Subarray: Find the contiguous subarray within an array that has the largest product.",
+      "link": "https://leetcode.com/problems/maximum-product-subarray/"
+    },
+    {
+      "question": "Product of Array Except Self: Find an array such that each element is the product of all other elements in the array.",
+      "link": "https://leetcode.com/problems/product-of-array-except-self/"
+    },
+    {
+      "question": "Find Minimum in Rotated Sorted Array: Find the minimum element in a rotated sorted array.",
+      "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+    },
+    {
+      "question": "Search a 2D Matrix: Determine if a target value is in a 2D matrix.",
+      "link": "https://leetcode.com/problems/search-a-2d-matrix/"
+    },
+    {
+      "question": "Pow(x, n): Implement the function to calculate x raised to the power n.",
+      "link": "https://leetcode.com/problems/powx-n/"
+    },
+    {
+      "question": "Valid Palindrome: Determine if a given string is a valid palindrome.",
+      "link": "https://leetcode.com/problems/valid-palindrome/"
+    },
+    {
+      "question": "Single Number: Find the element that appears only once in an array where every other element appears twice.",
+      "link": "https://leetcode.com/problems/single-number/"
+    },
+    {
+      "question": "House Robber: Determine the maximum amount of money you can rob from a series of houses without robbing two consecutive houses.",
+      "link": "https://leetcode.com/problems/house-robber/"
+    },
+    {
+      "question": "Word Ladder II: Return all the shortest transformation sequences from a start word to an end word.",
+      "link": "https://leetcode.com/problems/word-ladder-ii/"
+    },
+    {
+      "question": "Surrounded Regions: Capture all regions surrounded by 'X' in a 2D board.",
+      "link": "https://leetcode.com/problems/surrounded-regions/"
+    },
+    {
+      "question": "Number of Islands: Find the number of islands in a 2D grid.",
+      "link": "https://leetcode.com/problems/number-of-islands/"
+    },
+    {
+      "question": "Clone Graph: Clone an undirected graph.",
+      "link": "https://leetcode.com/problems/clone-graph/"
+    },
+    {
+      "question": "Max Points on a Line: Determine the maximum number of points that lie on the same straight line.",
+      "link": "https://leetcode.com/problems/max-points-on-a-line/"
+    },
+    {
+      "question": "Largest Rectangle in Histogram: Find the largest rectangle area in a histogram.",
+      "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+    },
+    {
+      "question": "Sliding Window Maximum: Find the maximum value in each sliding window of size k.",
+      "link": "https://leetcode.com/problems/sliding-window-maximum/"
+    },
+    {
+      "question": "Min Stack: Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.",
+      "link": "https://leetcode.com/problems/min-stack/"
+    },
+    {
+      "question": "LRU Cache: Design and implement a data structure for Least Recently Used (LRU) cache.",
+      "link": "https://leetcode.com/problems/lru-cache/"
+    },
+    {
+      "question": "Flatten Nested List Iterator: Implement an iterator to flatten a nested list of integers.",
+      "link": "https://leetcode.com/problems/flatten-nested-list-iterator/"
+    },
+    {
+      "question": "Find the Duplicate Number: Find the duplicate number in an array where numbers are between 1 and n.",
+      "link": "https://leetcode.com/problems/find-the-duplicate-number/"
+    },
+    {
+      "question": "Find the Celebrity: Identify the celebrity in a group of people.",
+      "link": "https://leetcode.com/problems/find-the-celebrity/"
+    },
+    {
+      "question": "Shortest Palindrome: Find the shortest palindrome that can be created by adding characters in front of a string.",
+      "link": "https://leetcode.com/problems/shortest-palindrome/"
+    },
+    {
+      "question": "Remove Invalid Parentheses: Remove the minimum number of invalid parentheses to make a string valid.",
+      "link": "https://leetcode.com/problems/remove-invalid-parentheses/"
+    },
+    {
+      "question": "Course Schedule: Determine if you can finish all courses given the course prerequisites.",
+      "link": "https://leetcode.com/problems/course-schedule/"
+    },
+    {
+      "question": "Decode Ways: Given a string, determine the number of ways to decode it.",
+      "link": "https://leetcode.com/problems/decode-ways/"
+    },
+    {
+      "question": "Distinct Subsequences: Find the number of distinct subsequences of a string that equals another string.",
+      "link": "https://leetcode.com/problems/distinct-subsequences/"
+    },
+    {
+      "question": "Combination Sum IV: Find the number of possible combinations that add up to a target.",
+      "link": "https://leetcode.com/problems/combination-sum-iv/"
+    },
+    {
+      "question": "Maximum Subarray Sum with One Deletion: Find the maximum subarray sum with at most one deletion.",
+      "link": "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/"
+    },
+    {
+      "question": "Non-overlapping Intervals: Find the minimum number of intervals to remove to make the rest non-overlapping.",
+      "link": "https://leetcode.com/problems/non-overlapping-intervals/"
+    },
+    {
+      "question": "Array Partition I: Maximize the sum of min pairs in an array.",
+      "link": "https://leetcode.com/problems/array-partition-i/"
+    },
+    {
+      "question": "Island Perimeter: Find the perimeter of an island in a 2D grid.",
+      "link": "https://leetcode.com/problems/island-perimeter/"
+    },
+    {
+      "question": "Maximum Width of Binary Tree: Find the maximum width of a binary tree.",
+      "link": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+    },
+    {
+      "question": "Employee Free Time: Find the common free time between all employees given their schedules.",
+      "link": "https://leetcode.com/problems/employee-free-time/"
+    },
+    {
+      "question": "All Paths From Source to Target: Find all possible paths from a source to a target in a directed acyclic graph.",
+      "link": "https://leetcode.com/problems/all-paths-from-source-to-target/"
+    }
+],
+  "osQuestions": [
+    {
+      "question": "What is a process in an operating system?",
+      "link": "https://www.geeksforgeeks.org/processes-in-operating-system/"
+    },
+    {
+      "question": "Explain the concept of virtual memory.",
+      "link": "https://www.geeksforgeeks.org/virtual-memory-in-operating-system/"
+    },
+    {
+      "question": "What are the different types of schedulers in an operating system?",
+      "link": "https://www.geeksforgeeks.org/schedulers-in-operating-system/"
+    },
+    {
+      "question": "What is a thread and how is it different from a process?",
+      "link": "https://www.geeksforgeeks.org/thread-vs-process-difference/"
+    },
+    {
+      "question": "Explain the concept of context switching.",
+      "link": "https://www.geeksforgeeks.org/context-switching-in-operating-system/"
+    },
+    {
+      "question": "What is a deadlock in an operating system?",
+      "link": "https://www.geeksforgeeks.org/deadlock-in-operating-system/"
+    },
+    {
+      "question": "Explain the four necessary conditions for deadlock.",
+      "link": "https://www.geeksforgeeks.org/deadlock-in-operating-system/"
+    },
+    {
+      "question": "What is the difference between multitasking, multithreading, and multiprocessing?",
+      "link": "https://www.geeksforgeeks.org/difference-between-multitasking-multithreading-and-multiprocessing/"
+    },
+    {
+      "question": "What is a semaphore and how is it used?",
+      "link": "https://www.geeksforgeeks.org/semaphores-in-operating-system/"
+    },
+    {
+      "question": "Explain the difference between a program and a process.",
+      "link": "https://www.geeksforgeeks.org/difference-between-program-and-process/"
+    },
+    {
+      "question": "What are the different types of operating systems?",
+      "link": "https://www.geeksforgeeks.org/types-of-operating-systems/"
+    },
+    {
+      "question": "What is paging in operating systems?",
+      "link": "https://www.geeksforgeeks.org/paging-in-operating-system/"
+    },
+    {
+      "question": "Explain the concept of segmentation in operating systems.",
+      "link": "https://www.geeksforgeeks.org/memory-segmentation-in-operating-system/"
+    },
+    {
+      "question": "What is demand paging?",
+      "link": "https://www.geeksforgeeks.org/difference-between-demand-paging-and-segmentation/"
+    },
+    {
+      "question": "Explain the concept of a file system.",
+      "link": "https://www.geeksforgeeks.org/file-system-in-operating-system/"
+    },
+    {
+      "question": "What is the difference between internal fragmentation and external fragmentation?",
+      "link": "https://www.geeksforgeeks.org/internal-and-external-fragmentation/"
+    },
+    {
+      "question": "What are system calls in operating systems?",
+      "link": "https://www.geeksforgeeks.org/system-calls-in-operating-system/"
+    },
+    {
+      "question": "Explain the difference between user mode and kernel mode.",
+      "link": "https://www.geeksforgeeks.org/difference-between-user-mode-and-kernel-mode/"
+    },
+    {
+      "question": "What is a critical section problem?",
+      "link": "https://www.geeksforgeeks.org/g-fact-70/"
+    },
+    {
+      "question": "What is the Banker's algorithm?",
+      "link": "https://www.geeksforgeeks.org/bankers-algorithm-in-operating-system-2/"
+    },
+    {
+      "question": "Explain the concept of inter-process communication (IPC).",
+      "link": "https://www.geeksforgeeks.org/inter-process-communication-ipc/"
+    },
+    {
+      "question": "What are interrupts in an operating system?",
+      "link": "https://www.geeksforgeeks.org/interrupts-types-interrupts/"
+    },
+    {
+      "question": "Explain the differences between preemptive and non-preemptive scheduling.",
+      "link": "https://www.geeksforgeeks.org/preemptive-and-non-preemptive-scheduling/"
+    },
+    {
+      "question": "What is a time-sharing operating system?",
+      "link": "https://www.geeksforgeeks.org/time-sharing-operating-system/"
+    },
+    {
+      "question": "What is thrashing in an operating system?",
+      "link": "https://www.geeksforgeeks.org/what-is-thrashing-in-operating-system/"
+    },
+    {
+      "question": "Explain the working of a round-robin scheduling algorithm.",
+      "link": "https://www.geeksforgeeks.org/program-round-robin-scheduling-set-1/"
+    },
+    {
+      "question": "What is a microkernel?",
+      "link": "https://www.geeksforgeeks.org/microkernel/"
+    },
+    {
+      "question": "Explain the concept of swapping in operating systems.",
+      "link": "https://www.geeksforgeeks.org/swapping-in-operating-system/"
+    },
+    {
+      "question": "What is RAID in operating systems?",
+      "link": "https://www.geeksforgeeks.org/raid-redundant-arrays-of-independent-disks/"
+    },
+    {
+      "question": "What is the difference between a compiler and an interpreter?",
+      "link": "https://www.geeksforgeeks.org/difference-between-compiler-and-interpreter/"
+    }
+]
+,
+  "networkQuestions": [
+    {
+      "question": "Explain the OSI model and its layers.",
+      "link": "https://www.geeksforgeeks.org/layers-of-osi-model/"
+    },
+    {
+      "question": "What is the difference between TCP and UDP?",
+      "link": "https://www.geeksforgeeks.org/difference-between-tcp-and-udp/"
+    },
+    {
+      "question": "What is an IP address and how does it work?",
+      "link": "https://www.geeksforgeeks.org/introduction-of-ip-address/"
+    },
+    {
+      "question": "Define what a subnet mask is and its purpose.",
+      "link": "https://www.geeksforgeeks.org/subnet-mask-and-subnetting/"
+    },
+    {
+      "question": "What are the differences between IPv4 and IPv6?",
+      "link": "https://www.geeksforgeeks.org/difference-between-ipv4-and-ipv6/"
+    },
+    {
+      "question": "Explain the concept of network topologies.",
+      "link": "https://www.geeksforgeeks.org/types-of-network-topology/"
+    },
+    {
+      "question": "What is a router and how does it function in a network?",
+      "link": "https://www.geeksforgeeks.org/difference-between-router-and-switch/"
+    },
+    {
+      "question": "What is the role of DNS in networking?",
+      "link": "https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/"
+    },
+    {
+      "question": "Explain what a firewall is and how it works.",
+      "link": "https://www.geeksforgeeks.org/firewall-types-and-features/"
+    },
+    {
+      "question": "What are the various types of network cables and connectors?",
+      "link": "https://www.geeksforgeeks.org/network-cables-and-connectors/"
+    },
+    {
+      "question": "What is the purpose of NAT (Network Address Translation)?",
+      "link": "https://www.geeksforgeeks.org/network-address-translation-nat-types/"
+    },
+    {
+      "question": "What are the different types of network protocols?",
+      "link": "https://www.geeksforgeeks.org/types-of-network-protocols/"
+    },
+    {
+      "question": "Explain what DHCP is and how it works.",
+      "link": "https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/"
+    },
+    {
+      "question": "What is a MAC address and how does it differ from an IP address?",
+      "link": "https://www.geeksforgeeks.org/mac-address-in-computer-network/"
+    },
+    {
+      "question": "Explain the difference between a hub, a switch, and a router.",
+      "link": "https://www.geeksforgeeks.org/difference-between-hub-switch-and-router/"
+    },
+    {
+      "question": "What is ARP (Address Resolution Protocol)?",
+      "link": "https://www.geeksforgeeks.org/arp-address-resolution-protocol/"
+    },
+    {
+      "question": "Describe the process of DNS resolution.",
+      "link": "https://www.geeksforgeeks.org/dns-lookup-process/"
+    },
+    {
+      "question": "What is the function of ICMP in networking?",
+      "link": "https://www.geeksforgeeks.org/internet-control-message-protocol-icmp/"
+    },
+    {
+      "question": "Explain the difference between unicast, multicast, and broadcast.",
+      "link": "https://www.geeksforgeeks.org/unicast-multicast-and-broadcast-in-computer-network/"
+    },
+    {
+      "question": "What is a VPN (Virtual Private Network) and how does it work?",
+      "link": "https://www.geeksforgeeks.org/virtual-private-network-vpn/"
+    },
+    {
+      "question": "Explain the concept of packet switching.",
+      "link": "https://www.geeksforgeeks.org/what-is-packet-switching/"
+    },
+    {
+      "question": "What is a proxy server and how does it work?",
+      "link": "https://www.geeksforgeeks.org/proxy-server/"
+    },
+    {
+      "question": "What are the different types of wireless networks?",
+      "link": "https://www.geeksforgeeks.org/different-types-of-wireless-networks/"
+    },
+    {
+      "question": "Explain what the BGP (Border Gateway Protocol) is.",
+      "link": "https://www.geeksforgeeks.org/border-gateway-protocol-bgp/"
+    },
+    {
+      "question": "What is a load balancer and how does it work?",
+      "link": "https://www.geeksforgeeks.org/what-is-load-balancer/"
+    },
+    {
+      "question": "What is the difference between static and dynamic routing?",
+      "link": "https://www.geeksforgeeks.org/static-routing-vs-dynamic-routing/"
+    },
+    {
+      "question": "Describe the three-way handshake in TCP.",
+      "link": "https://www.geeksforgeeks.org/tcp-3-way-handshake-process/"
+    },
+    {
+      "question": "What is the difference between circuit switching and packet switching?",
+      "link": "https://www.geeksforgeeks.org/difference-between-circuit-switching-and-packet-switching/"
+    },
+    {
+      "question": "Explain the concept of QoS (Quality of Service).",
+      "link": "https://www.geeksforgeeks.org/introduction-of-quality-of-service-qos-in-networking/"
+    },
+    {
+      "question": "What is the difference between HTTP and HTTPS?",
+      "link": "https://www.geeksforgeeks.org/difference-between-http-and-https/"
+    }
+]
+,
+  "dbmsQuestions": [
+    {
+      "question": "What is normalization in a database?",
+      "link": "https://www.geeksforgeeks.org/normalization-in-dbms/"
+    },
+    {
+      "question": "Explain ACID properties in DBMS.",
+      "link": "https://www.geeksforgeeks.org/acid-properties-in-dbms/"
+    },
+    {
+      "question": "What is the difference between a primary key and a foreign key?",
+      "link": "https://www.geeksforgeeks.org/difference-between-primary-key-and-foreign-key/"
+    },
+    {
+      "question": "Define indexing and its importance in databases.",
+      "link": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/"
+    },
+    {
+      "question": "What is a view in SQL and how is it used?",
+      "link": "https://www.geeksforgeeks.org/views-in-sql/"
+    },
+    {
+      "question": "Explain the concept of joins in SQL.",
+      "link": "https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/"
+    },
+    {
+      "question": "What is a stored procedure in SQL?",
+      "link": "https://www.geeksforgeeks.org/sql-procedures/"
+    },
+    {
+      "question": "Define triggers in a database.",
+      "link": "https://www.geeksforgeeks.org/triggers-in-sql/"
+    },
+    {
+      "question": "What is the difference between DELETE and TRUNCATE in SQL?",
+      "link": "https://www.geeksforgeeks.org/difference-between-delete-drop-and-truncate/"
+    },
+    {
+      "question": "Explain the concept of database transactions.",
+      "link": "https://www.geeksforgeeks.org/database-transactions-and-its-controls/"
+    },
+    {
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "link": "https://www.geeksforgeeks.org/difference-between-sql-and-nosql/"
+    },
+    {
+      "question": "Explain the concept of a data warehouse.",
+      "link": "https://www.geeksforgeeks.org/introduction-of-data-warehouse/"
+    },
+    {
+      "question": "What are the different types of normalization?",
+      "link": "https://www.geeksforgeeks.org/types-of-normal-forms-in-dbms/"
+    },
+    {
+      "question": "What is a candidate key in DBMS?",
+      "link": "https://www.geeksforgeeks.org/candidate-key-in-dbms/"
+    },
+    {
+      "question": "What is a composite key in DBMS?",
+      "link": "https://www.geeksforgeeks.org/composite-key-in-dbms/"
+    },
+    {
+      "question": "Explain the concept of a foreign key constraint.",
+      "link": "https://www.geeksforgeeks.org/foreign-key-in-dbms/"
+    },
+    {
+      "question": "What is an ER diagram and how is it used?",
+      "link": "https://www.geeksforgeeks.org/entity-relationship-diagram-erd/"
+    },
+    {
+      "question": "Define the term 'referential integrity'.",
+      "link": "https://www.geeksforgeeks.org/referential-integrity-in-dbms/"
+    },
+    {
+      "question": "What is the difference between clustered and non-clustered indexes?",
+      "link": "https://www.geeksforgeeks.org/difference-between-clustered-and-non-clustered-index/"
+    },
+    {
+      "question": "Explain the concept of a 'join' operation in SQL.",
+      "link": "https://www.geeksforgeeks.org/sql-join-set-2-left-join-and-right-join/"
+    },
+    {
+      "question": "What is the purpose of a 'group by' clause in SQL?",
+      "link": "https://www.geeksforgeeks.org/group-by-in-sql/"
+    },
+    {
+      "question": "What is the difference between 'HAVING' and 'WHERE' clauses in SQL?",
+      "link": "https://www.geeksforgeeks.org/difference-between-where-and-having-clause-in-sql/"
+    },
+    {
+      "question": "Explain the concept of OLTP and OLAP.",
+      "link": "https://www.geeksforgeeks.org/difference-between-oltp-and-olap/"
+    },
+    {
+      "question": "What is a cursor in SQL and how is it used?",
+      "link": "https://www.geeksforgeeks.org/cursor-in-sql/"
+    },
+    {
+      "question": "What is the difference between UNION and UNION ALL in SQL?",
+      "link": "https://www.geeksforgeeks.org/sql-union-and-union-all-clause/"
+    },
+    {
+      "question": "Explain the concept of a database lock and its types.",
+      "link": "https://www.geeksforgeeks.org/locking-in-dbms/"
+    },
+    {
+      "question": "What is a materialized view in a database?",
+      "link": "https://www.geeksforgeeks.org/materialized-view-in-dbms/"
+    },
+    {
+      "question": "What is the role of a database administrator (DBA)?",
+      "link": "https://www.geeksforgeeks.org/role-of-database-administrator-dba/"
+    },
+    {
+      "question": "Explain the concept of data redundancy and how it can be minimized.",
+      "link": "https://www.geeksforgeeks.org/what-is-data-redundancy-in-dbms/"
+    },
+    {
+      "question": "What are the different types of database relationships?",
+      "link": "https://www.geeksforgeeks.org/relationship-in-dbms/"
+    }
+]
+,
+  "sqlQuestions":[
+    {
+      "question": "Write a SQL query to find the second highest salary.",
+      "link": "https://leetcode.com/problems/second-highest-salary/"
+    },
+    {
+      "question": "What is the difference between INNER JOIN and OUTER JOIN?",
+      "link": "https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/"
+    },
+    {
+      "question": "How do you write a SQL query to get the current date?",
+      "link": "https://www.geeksforgeeks.org/sql-current_date-current_timestamp-functions/"
+    },
+    {
+      "question": "Write a query to retrieve duplicate rows in a table.",
+      "link": "https://www.geeksforgeeks.org/find-duplicate-rows-in-a-table-using-sql/"
+    },
+    {
+      "question": "Explain the GROUP BY clause in SQL.",
+      "link": "https://www.geeksforgeeks.org/sql-group-by-clause/"
+    },
+    {
+      "question": "What is a self-join in SQL and how is it used?",
+      "link": "https://www.geeksforgeeks.org/self-join-in-sql/"
+    },
+    {
+      "question": "Write a SQL query to find the nth highest salary in a table.",
+      "link": "https://leetcode.com/problems/nth-highest-salary/"
+    },
+    {
+      "question": "Explain the use of the HAVING clause in SQL.",
+      "link": "https://www.geeksforgeeks.org/sql-having-clause/"
+    },
+    {
+      "question": "What is the difference between WHERE and HAVING in SQL?",
+      "link": "https://www.geeksforgeeks.org/difference-between-where-and-having-clause-in-sql/"
+    },
+    {
+      "question": "How do you optimize a SQL query?",
+      "link": "https://www.geeksforgeeks.org/sql-performance-tuning/"
+    },
+    {
+      "question": "What is the difference between UNION and UNION ALL?",
+      "link": "https://www.geeksforgeeks.org/sql-union-and-union-all-clause/"
+    },
+    {
+      "question": "Write a SQL query to find the total number of employees in each department.",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-find-number-of-employees-in-each-department/"
+    },
+    {
+      "question": "How do you retrieve the top N records in SQL?",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-select-the-nth-record-in-a-database/"
+    },
+    {
+      "question": "What is a correlated subquery in SQL?",
+      "link": "https://www.geeksforgeeks.org/correlated-subqueries-in-sql/"
+    },
+    {
+      "question": "Explain the use of the DISTINCT keyword in SQL.",
+      "link": "https://www.geeksforgeeks.org/sql-select-distinct-statement/"
+    },
+    {
+      "question": "Write a SQL query to calculate the cumulative sum of a column.",
+      "link": "https://www.geeksforgeeks.org/cumulative-sum-query-in-sql/"
+    },
+    {
+      "question": "What is a CASE statement in SQL and how is it used?",
+      "link": "https://www.geeksforgeeks.org/case-statement-in-sql/"
+    },
+    {
+      "question": "How do you remove duplicate rows from a table in SQL?",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-remove-duplicates-from-a-table/"
+    },
+    {
+      "question": "Explain the concept of foreign keys in SQL.",
+      "link": "https://www.geeksforgeeks.org/foreign-key-in-dbms/"
+    },
+    {
+      "question": "Write a SQL query to find all employees who have the same salary.",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-find-employees-with-same-salary/"
+    },
+    {
+      "question": "What is the difference between COUNT and COUNT(*) in SQL?",
+      "link": "https://www.geeksforgeeks.org/difference-between-count-and-count-column-in-sql/"
+    },
+    {
+      "question": "How do you write a SQL query to get the maximum and minimum salary from a table?",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-find-maximum-and-minimum-salary-of-department/"
+    },
+    {
+      "question": "Explain the concept of transactions in SQL.",
+      "link": "https://www.geeksforgeeks.org/database-transactions-and-its-controls/"
+    },
+    {
+      "question": "Write a SQL query to calculate the average salary of employees.",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-calculate-average-of-row/"
+    },
+    {
+      "question": "What is the difference between TRUNCATE and DELETE in SQL?",
+      "link": "https://www.geeksforgeeks.org/difference-between-delete-drop-and-truncate/"
+    },
+    {
+      "question": "Write a SQL query to swap the values of two columns in a table.",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-swap-the-values-of-two-columns-in-a-table/"
+    },
+    {
+      "question": "What is the purpose of the LIMIT clause in SQL?",
+      "link": "https://www.geeksforgeeks.org/limit-clause-in-sql/"
+    },
+    {
+      "question": "Write a SQL query to find all employees hired in the last 30 days.",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-fetch-data-based-on-last-modified/"
+    },
+    {
+      "question": "What is a composite key in SQL?",
+      "link": "https://www.geeksforgeeks.org/composite-key-in-sql/"
+    },
+    {
+      "question": "Write a SQL query to join three tables.",
+      "link": "https://www.geeksforgeeks.org/sql-query-to-join-three-tables/"
+    }
+]
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motivational Shloka & Tech Questions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle Switch -->
+    <div id="mode-toggle-container">
+      <label class="switch">
+          <input type="checkbox" id="mode-toggle">
+          <span class="slider round"></span>
+      </label>
+      <span id="mode-label">Light Mode</span>
+      <span id="username" class="username-display"></span> <!-- Username display -->
+  </div>
+
+    <div id="streak-container">
+        <p id="streak">🔥 Current Streak: 0 day(s)</p>
+    </div>
+
+    <div id="shloka-container">
+        <h2>📜 Motivational Shloka</h2>
+        <p id="shloka">Your shloka will appear here.</p>
+        <button id="see-more" class="hidden">👇 See More</button>
+    </div>
+    
+    <div id="questions-container">
+        <h3>💻 Coding Question</h3>
+        <p id="coding-question">Your coding question will appear here.</p>
+        <button id="coding-link-btn" class="question-link-btn">Solve it Now!</button>
+
+        <h3>🖥️ Operating System</h3>
+        <p id="os-question">Your OS question will appear here.</p>
+        <button id="os-link-btn" class="question-link-btn">🔗 Learn More</button>
+
+        <h3>🌐 Computer Network</h3>
+        <p id="network-question">Your network question will appear here.</p>
+        <button id="network-link-btn" class="question-link-btn">🔗 Learn More</button>
+
+        <h3>🗃️ DBMS</h3>
+        <p id="dbms-question">Your DBMS question will appear here.</p>
+        <button id="dbms-link-btn" class="question-link-btn">🔗 Learn More</button>
+
+        <h3>🛢️ SQL</h3>
+        <p id="sql-question">Your SQL question will appear here.</p>
+        <button id="sql-link-btn" class="question-link-btn">🔗 Learn More</button>
+    </div>
+
+    <button id="reset-btn" class="reset-btn">🔄 Reset Questions & Shloka</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
